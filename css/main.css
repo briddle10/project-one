@@ -1,7 +1,73 @@
-h1 {
-    color: red;
+body{
+    background-color: black;
+    line-height: 10px;
 }
 
-p{
-    color: blue;
+a:link{
+    color:chartreuse;
+}
+
+a:visited{
+    color: chartreuse;
+}
+
+a:hover{
+    color: rgb(0, 255, 208);
+}
+
+a:active{
+    color: rgb(0, 255, 208);
+}
+
+
+
+
+#practicesection{
+    height: 2000px;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: chartreuse;
+    font-family: monospace;
+    display: inline-block;
+    font-size: 42px;
+}
+
+h2{
+    color: chartreuse;
+    font-family: monospace;
+    display: inline-block;
+    font-size: 32px;
+}
+
+ul{
+    color: chartreuse;
+    font-size: 32px;
+}
+
+#white_s{
+    background-color: white;
+}
+
+#black_w{
+    background-color: black;
+}
+
+h3{
+    font-size: 24px;
+    font-family: monospace;
+    display: inline-block;
+    padding: 5px;
+    color: chartreuse;
+    vertical-align: top;
+}
+
+.back_link{
+    float: right;
 }
