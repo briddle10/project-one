@@ -20,11 +20,26 @@ a:active{
 }
 
 
-
-
-#practicesection{
-    height: 2000px;
+#toc{
 }
+
+
+#gap_section{
+    height: 150px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+hr{
+    display: block;
+    height: 2px;
+    width: 100%;
+    margin: auto 0;
+    border: 1px solid chartreuse;
+}
+
 
 
 
@@ -51,14 +66,6 @@ ul{
     font-size: 32px;
 }
 
-#white_s{
-    background-color: white;
-}
-
-#black_w{
-    background-color: black;
-}
-
 h3{
     font-size: 24px;
     font-family: monospace;
@@ -66,6 +73,10 @@ h3{
     padding: 5px;
     color: chartreuse;
     vertical-align: top;
+}
+
+.def_sec{
+    border-bottom: 1px solid chartreuse;
 }
 
 .back_link{
