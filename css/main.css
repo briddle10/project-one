@@ -19,17 +19,22 @@ a:active{
     color: rgb(0, 255, 208);
 }
 
-
-#toc{
+a{
+    text-decoration: none;
 }
 
-
 #gap_section{
-    height: 150px;
+    height: 75px;
     padding: 40px;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+#toc{
+    margin-bottom: 0px;
+    color: chartreuse;
+    font-size: 32px;
 }
 
 hr{
@@ -40,11 +45,22 @@ hr{
     border: 1px solid chartreuse;
 }
 
+.attribute{
+    color: chartreuse;
+    font-size: 17px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 17px;
+}
 
-
-
-a{
-    text-decoration: none;
+p{
+    color: chartreuse;
+    font-size: 19px;
+    font-family: monospace;
+    line-height: 28px;
+    margin: 10px 0px;
 }
 
 h1{
@@ -61,11 +77,6 @@ h2{
     font-size: 32px;
 }
 
-ul{
-    color: chartreuse;
-    font-size: 32px;
-}
-
 h3{
     font-size: 24px;
     font-family: monospace;
@@ -73,12 +84,32 @@ h3{
     padding: 5px;
     color: chartreuse;
     vertical-align: top;
+    margin-bottom: 10px;
 }
 
 .def_sec{
-    border-bottom: 1px solid chartreuse;
+    border-bottom: 4px groove chartreuse;
 }
 
 .back_link{
     float: right;
+}
+
+#padding{
+    padding-bottom: 2px;
+}
+
+@font-face{
+    font-family: "Monaco";
+    src: url(C:/Users/Ben/Documents/GitHub/project-one/assets/monaco.ttf);
+}
+
+.codetext{
+    background-color: rgba(215, 215, 215, 1);
+    font-weight: bold;
+    color: black;
+    padding: 3px;
+    font-family: "Monaco";
+    font-size: 13px;
+    margin-bottom: 0px;
 }
