@@ -48,7 +48,7 @@ hr{
 .attribute{
     color: chartreuse;
     font-size: 17px;
-    font-family: monospace;
+    font-family: 'Share Tech Mono', monospace;
     font-style: italic;
     font-weight: bold;
     letter-spacing: 2px;
@@ -57,29 +57,29 @@ hr{
 
 p{
     color: chartreuse;
-    font-size: 19px;
-    font-family: monospace;
+    font-size: 17px;
+    font-family: 'Share Tech Mono', monospace;
     line-height: 28px;
     margin: 10px 0px;
 }
 
 h1{
     color: chartreuse;
-    font-family: monospace;
+    font-family: 'Share Tech Mono', monospace;
     display: inline-block;
     font-size: 42px;
 }
 
 h2{
     color: chartreuse;
-    font-family: monospace;
+    font-family: 'Share Tech Mono', monospace;
     display: inline-block;
     font-size: 28px;
 }
 
 h3{
     font-size: 24px;
-    font-family: monospace;
+    font-family: 'Share Tech Mono', monospace;
     display: inline-block;
     padding: 5px;
     color: chartreuse;
